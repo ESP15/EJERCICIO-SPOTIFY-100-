@@ -1,0 +1,163 @@
+/*s
+Colors:
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
+*/
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+nav a{
+    margin: 20px;
+    text-decoration: none;
+    color: rgb(40, 39, 39);
+    font-size: 20px;
+}
+
+
+#spotify-logo{
+    width: 190px;
+    ruby-merge: 125px;
+}
+nav{
+    display: inline-block;
+}
+
+.p{
+    font-style: normal;
+    font-size: medium;
+    ruby-merge: 125px;
+    padding: 0;
+}
+
+.Fotogrande{
+    background-image: url(./images/landing.jpg);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+.textofotogrande{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+    display: block;
+}
+h2{
+    font-size: 2rem;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+/*FOTO VERDE DE ABAJO DEL TODO*/
+.container1{
+    display: inline-block;
+    text-align: center;
+    text-decoration-color: rgb(20, 20, 20);
+    font-size: 15px;
+    justify-content: space-between;
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+h1{
+    text-decoration: underline;
+}
+h3{
+    color: #00b172;
+}
+h4{
+
+}
+.logo{
+    width: 100px;
+    height: 100px;
+}
+section{
+    background-color: #00b172;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container2{
+        background-color: #00b172;
+        background-position: center;
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}    
+
+.spotify{
+    width: 100px;
+    display: inline-block;
+    justify-content: space-between;
+
+}
+
+.rammstein{
+    width: 175px;
+    height: 275px;
+    margin-right: 20px;
+
+}
+/* 3-TAMAÑOS DE PANTALLA */
+
+
+/* MOVIL */
+
+@media(width < 320px){
+
+header{
+    display: block;
+    text-align: center;
+}
+nav a{
+    margin: 8px;
+    display: block;
+}
+.container1{
+    text-align: center;
+    font-size: 15px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+}
+/* TABLET */
+
+@media(321px < width < 740px){
+    
+    header{
+        display: block;
+        text-align: center;
+    }
+    
+    nav{
+        display: block;
+        margin: 8px;
+    }
+    }
+
+/* ORDENADOR/PC */
+
+@media(width >= 740px){
+    
+    
+}
+

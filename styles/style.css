@@ -1,0 +1,101 @@
+/*
+Colors:
+
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
+
+*/
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#spotify-logo{
+    width: 190px;
+    ruby-merge: 125px;
+
+}
+nav{
+    display: inline-block;
+}
+a{
+    vertical-align: 50px;
+    margin margin-right: 50px;
+    text-decoration: none;
+    font-size: 20px;
+}
+p{
+    font-style: normal;
+    font-size: medium;
+    ruby-merge: 125px;
+}
+image{
+    background-color: white;
+    box-sizing: content-box 50px;
+    display: inline-block;
+    image-orientation: from-image;
+}
+section{
+    background-image: url(../images/landing.jpg);
+    height: 60vh;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+/* 3-TAMAÑOS DE PANTALLA */
+
+
+/* MOVIL */
+
+@media(width <=320px){
+    body{
+        background-color: red;
+        font-size: 16px;
+    }
+    a{
+        margin-inline: 50px;
+    }
+}
+
+
+/* TABLET */
+
+@media(321px <=width < 728px){
+    body{
+        background-color: orange;
+        font-size: 16px;
+    }
+    a{
+        margin-right: 50px;
+    }
+}
+nav{
+    display: flex;
+    margin-right: 50px;
+    flex-direction: column;
+}
+
+/* ORDENADOR/PC */
+
+@media(width >= 728px){
+    body{
+    background-color: green;
+    font-size: 16px;
+    }
+    a{
+        margin-right: 50px;
+    }
+    nav{
+        display: flex;
+        margin-right: 50px;
+        flex-direction: column;
+    }
+}
